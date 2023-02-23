@@ -88,8 +88,8 @@ const tours = [
     },
 ];
 
-const toursImg = document.getElementById("toursimg");
-const tourName = document.getElementById("tourname");
+const toursImg = document.getElementById("tours-img");
+const tourName = document.getElementById("tour-name");
 const highlight = document.getElementById("highlight");
 const info = document.getElementById("info");
 
