@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <header id="home">
+            <nav class="navbar">
+                <section class="nav-center">
+                    <div class="nav-header">
+                        <p class="logo">
+                            <a href="index.html">Amazing Parks</a>
+                        </p>
+                    </div>
+
+                    <a class="toggle-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+
+                    <div class="navbar-links">
+                        <ul>
+                            <li>
+                                <a href="#home" class="scroll-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="scroll-link">About</a>
+                            </li>
+                            <li>
+                                <a href="#services" class="scroll-link"
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#tours" class="scroll-link">Tours</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </nav>
+            <!-- banner -->
+            <div class="banner">
+                <div class="banner-text-container">
+                    <h1 class="upper-text">Looking for Theme Parks?</h1>
+                    <p class="bottom-text">
+                        Look no further! Amazing Parks is here to showcase what
+                        could be your next vacation destination!
+                    </p>
+                    <a href="#tours" class="btn btn-explore scroll-link"
+                        >explore tours</a
+                    >
+                </div>
+            </div>
+        </header>
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="about-title">
+                <h2>ABOUT <span>US</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class=""></div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section class="services" id="services">
+            <div class="services-title">
+                <h2>OUR SERVICES</h2>
+            </div>
+        </section>
+        <!-- Tours -->
+        <section class="tours" id="tours">
+            <div class="tours-title">
+                <h2>tours</h2>
+            </div>
+
+            <div class="tours-js">
+                <div class="tours-img-container">
+                    <img class="toursimg" id="toursimg" alt="tours-img" />
+                </div>
+                <div class="tours-text-container">
+                    <h4 id="tourname"></h4>
+                    <p id="highlight"></p>
+                    <p id="info"></p>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <div class="backtotop-container">
+            <a class="scroll-link top-link" href="#home">
+                <img src="img/arrow.png" class="arrow-pic" />
+            </a>
+        </div>
+
+        <footer class="footer">
+            <p>
+                Not a real website. Practicing HTML, CSS, Javascript (<span
+                    id="date"
+                ></span
+                >)
+            </p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
